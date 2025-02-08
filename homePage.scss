@@ -1,0 +1,34 @@
+.homePage {
+  display: flex;
+  height: 100%;
+
+  .textContainer {
+    flex: 3;
+  }
+
+  .wrapper {
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+  }
+
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .imgContainer {
+    flex: 2;
+    background-color: azure;
+    position: relative;
+    display: flex;
+    align-items: button;
+    img {
+      width: 110%;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
